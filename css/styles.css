@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 1.6rem;
+  background: #B52E3F;
+  color: #F5F3EF;
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  padding-bottom: 2rem;
+
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin: 3rem 0;
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  margin: 3rem 0;
+}
+
+.btn {
+  border:none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  padding: 1.6rem;
+  border-radius: 1rem;
+}
+
+header, footer {
+  background: #1A1C1E;
+  color: #F5F3EF;
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+}
+
+header {
+  justify-content: flex-start;
+}
+
+footer {
+  justify-content: space-between;
+}
+
+.div-logo {
+  margin: 0rem 3rem;
+}
+
+.div-logo img {
+  width: 10vh;
+  height: auto;
+  margin-right: 50vh;
+}
+
+.logo, .header-nav ul li a {
+  text-decoration: none;
+  font-size: 2rem;
+  color: inherit;
+  display: inline-block;
+}
+
+.header-nav ul,
+footer .footer-list{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-list li {
+  padding: 1rem;
+}
+
+.footer-list img {
+  width: 5rem;
+  padding: 0.5rem;
+}
+
+/* -----------------------------------------------------------------------------------------------
+                                          COLORES
+--------------------------------------------------------------------------------------------------*/
+
+.bg-primary {
+  background-color: #B52E3F;
+}
+
+.bg-secondary {
+  background-color: #1A1C1E;
+}
+
+.text-light {
+  color: #F5F3EF;
+}
+
+.text-secondary {
+  color: #f2e852;
+}
+
+/* -----------------------------------------------------------------------------------------------
+                                            HOME
+--------------------------------------------------------------------------------------------------*/
+
+.parrafo {
+  width: 80%;
+  text-align: center;
+  font-size: 2rem;
+  padding: 3rem;
+}
+
+.contenedor-tarjetas {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.card {
+  margin: 1rem;
+
+  background: #1A1C1E;
+  width: 40rem;
+  padding-bottom: 2rem;
+
+  border-radius: 1rem;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  padding-bottom: 2rem;
+}
+
+.card img {
+  width: 100%;
+  height: 35rem;
+  object-fit: cover;
+}
+
+/* -----------------------------------------------------------------------------------------------
+                                         CONTACTO
+--------------------------------------------------------------------------------------------------*/
+
+.titulo-contacto {
+  margin: 2rem 0;
+}
+
+.form-contacto {
+  background-color: #6B2E3A;
+  width: 100%;
+  max-width: 50rem;
+  font-size: 2rem;
+  padding: 3rem;
+  border-radius: 1rem;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
